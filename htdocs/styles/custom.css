@@ -1,0 +1,43 @@
+.logo {
+  width: 23px;
+  margin: 5px;
+}
+
+.navbar-static-top{
+	/*background-color: #337ab7;*/
+  /*bo rder-color: #434354;*/
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…IgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+  background: -moz-linear-gradient(-65deg,#008fe2 0,#00b29c 100%);
+  background: -webkit-gradient(linear,left top,right bottom,color-stop(0%,#008fe2),color-stop(100%,#00b29c));
+  background: -webkit-linear-gradient(-65deg,#008fe2 0,#00b29c 100%);
+  background: -o-linear-gradient(-65deg,#008fe2 0,#00b29c 100%);
+  background: -ms-linear-gradient(-65deg,#008fe2 0,#00b29c 100%);
+  background: linear-gradient(154deg,#008fe2 0,#00b29c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008fe2', endColorstr='#00b29c', GradientType=1);
+}
+
+.navbar-default .navbar-brand{
+	color: #ffffff;
+}
+
+.navbar-header{
+	width: 100%;
+}
+
+.navbar-logout{
+	  float: right;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 13px;
+    cursor: pointer;
+}
+
+.icon-button-right{
+    float: right;
+    cursor: pointer;
+}
+
+.icon-sub-edit-button{
+  font-size: 17px;
+  cursor: pointer;
+}
