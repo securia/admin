@@ -8,8 +8,19 @@
  */
  angular.module('SecuriaAdminApp')
   .controller('UpdateEmployeeController', ['$scope','$rootScope','$http', '$timeout','$location', 
-                    function ($scope,$rootScope,$http ,$timeout,$location) {     
+                    function ($scope,$rootScope,$http ,$timeout,$location) {
+     
      $scope.user=$rootScope.selectedUser;
+
+     // if(){
+     //    $scope.user.user_id = $rootScope.selectedUser._id;
+     //    $scope.user.name = $rootScope.selectedUser.name;
+     //    $scope.user.position = $rootScope.selectedUser.position;
+     //    $scope.user.contact_number = $rootScope.selectedUser.contact_number;
+     //    $scope.user.email = $rootScope.selectedUser.email;
+     //    $scope.user.type = $rootScope.selectedUser.type;
+     //    $scope.user.password = $rootScope.selectedUser.password;
+     // }
 
      $scope.updateEmployeeDetails = function(index){
         $scope.user.token=$rootScope.user_token;
