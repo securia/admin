@@ -43,13 +43,13 @@
                                         
                                         <p class="fa fa-circle-o" ng-if="!user.is_active && !user.is_deleted" tooltip="Inactive" tooltip-placement="right"/>
 
-                                        &nbsp&nbsp    
+                                        &nbsp  
 
-                                       <button class="fa fa-times-circle-o icon-sub-edit-button" data-toggle="modal" ng-click="deleteEmployee($index)" tooltip="Delete employee" tooltip-placement="right"/>
+                                       <button class="fa fa-pencil-square icon-sub-edit-button" data-toggle="modal" ng-click="updateEmployee($index)" tooltip="Update details" tooltip-placement="right"/>
                                        
                                        &nbsp
 
-                                       <button class="fa fa-pencil-square icon-sub-edit-button" data-toggle="modal" ng-click="updateEmployee($index)" tooltip="Update details" tooltip-placement="right"/>
+                                       <button class="fa fa-times-circle-o icon-sub-edit-button" data-toggle="modal" ng-click="deleteEmployee($index)" tooltip="Delete employee" tooltip-placement="right"/>
                                             
                                     </td>
                                 </tr>
