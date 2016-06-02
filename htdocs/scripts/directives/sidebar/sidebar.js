@@ -15,7 +15,9 @@ angular.module('SecuriaAdminApp')
       replace: true,
       scope: {
       },
-      controller:function($scope){
+      controller:function($scope,$rootScope){
+
+        $scope.user_name=$rootScope.user_name;
         $scope.selectedMenu = 'calls';
         $scope.collapseVar = 0;
         $scope.multiCollapseVar = 0;

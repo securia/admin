@@ -31,12 +31,13 @@
         "sort": [{"sort_by": "name", "order_by": 1}]
     };
 
-    $http.post($rootScope.api_base_url+"user/getAll", data).success(function(data, status) {
-        console.log("User Success",data);
-        if(data.success){
-            $scope.users=data.data.content;
-        }
-    });
+    $http.post($rootScope.api_base_url+"user/getAll", data)
+        .success(function(data, status) {
+            console.log("User Success",data);
+            if(data.success){
+                $scope.users=data.data.content;
+            }
+        });
 
     $scope.fetchDetails = function() {
         var data = {
