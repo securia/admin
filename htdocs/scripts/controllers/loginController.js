@@ -14,7 +14,13 @@ angular.module('SecuriaAdminApp')
     $scope.userPassword="";
     $scope.error_message="";
     $scope.showErrorMessage=false;
-
+    
+    var user_token=localStorageService.get("user_token");
+    if(user_token){
+        $location.path("/dashboard/calls");
+        return;
+    }
+    
     console.log("load LoginController list");
 
     $scope.sendPost = function() {

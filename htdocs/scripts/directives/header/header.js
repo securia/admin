@@ -21,6 +21,13 @@ angular.module('SecuriaAdminApp')
 			}else{
  				$location.path("/login");
 			}
+
+			$scope.logOutClick =function(){
+				localStorageService.remove("user_name");
+				localStorageService.remove("user_email");
+				localStorageService.remove("user_token");
+				$location.path("/login");
+			}
 	    }
 	}
 });

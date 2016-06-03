@@ -26,7 +26,7 @@ securiaApp.config(['$stateProvider','$urlRouterProvider','$ocLazyLoadProvider','
       events:true,
     });
 
-    $urlRouterProvider.otherwise('/dashboard/calls');
+    $urlRouterProvider.otherwise('/login');
 
     $stateProvider
       .state('dashboard', {

@@ -4,6 +4,11 @@
     float: left;
 }
 
+.login_logo{
+  width: 18px;
+
+}
+
 .navbar-static-top{
 	/*background-color: #337ab7;*/
   /*bo rder-color: #434354;*/
